@@ -5,12 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'Tests passing!'",
-    "build:fab": "fab-static src"
+    "build:fab": "npm run build && fab build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@fab/static": "^0.1.4"
-  }
+  "dependencies": {}
 }
