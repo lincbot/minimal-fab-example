@@ -1,0 +1,11 @@
+{
+  build: {
+    "@fab/rewire-assets": {
+      dir: "src"
+    }
+  },
+  render: {
+    "@fab/rewire-assets": {
+    }
+  }
+}
