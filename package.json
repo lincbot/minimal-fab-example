@@ -10,5 +10,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "@fab/input-static": "^0.0.3-alpha.1",
+    "@fab/rewire-assets": "^0.0.3-alpha.1"
+  },
+  "devDependencies": {
+    "rollup": "^1.27.9"
+  }
 }

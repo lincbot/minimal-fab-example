@@ -1,11 +1,13 @@
 {
   build: {
-    "@fab/rewire-assets": {
-      dir: "src"
+    '@fab/input-static': {
+      dir: 'src'
+    },
+    '@fab/rewire-assets': {
+      'inline-threshold': 300
     }
   },
-  render: {
-    "@fab/rewire-assets": {
-    }
-  }
+  render: [
+    '@fab/rewire-assets'
+  ]
 }
