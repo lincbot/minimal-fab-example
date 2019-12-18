@@ -3,11 +3,13 @@
     '@fab/input-static': {
       dir: 'src'
     },
+    '@fab/serve-html': {},
     '@fab/rewire-assets': {
       'inline-threshold': 300
     }
   },
-  render: [
-    '@fab/rewire-assets'
+  runtime: [
+    '@fab/rewire-assets',
+    '@fab/serve-html'
   ]
 }

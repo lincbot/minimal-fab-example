@@ -1,8 +1,5 @@
 
 
-import { render as renderer_0 } from '@fab/rewire-assets'
+import * as rwa from '@fab/rewire-assets'
 
-
-const renderers = [
-  renderer_0()
-]
+console.log({rwa})
