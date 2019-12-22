@@ -5,7 +5,7 @@
     },
     '@fab/serve-html': {},
     '@fab/rewire-assets': {
-      'inline-threshold': 300
+      'inline-threshold': 30
     }
   },
   runtime: [

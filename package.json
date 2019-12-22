@@ -13,9 +13,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fab/input-static": "^0.0.4",
-    "@fab/rewire-assets": "^0.0.4",
-    "@fab/serve-html": "^0.0.4"
+    "@fab/cli": "canary",
+    "@fab/input-static": "canary",
+    "@fab/rewire-assets": "canary",
+    "@fab/serve-html": "canary"
   },
   "devDependencies": {
     "rollup": "^1.27.9"
