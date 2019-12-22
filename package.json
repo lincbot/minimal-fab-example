@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'Tests passing!'",
-    "build:fab": "npm run build && fab build",
+    "build:fab": "fab build",
     "test:serve": "fab-serve fab.zip",
     "test:curl": "sleep 1 && curl -v http://localhost:3000/"
   },
