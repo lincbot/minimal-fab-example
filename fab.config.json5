@@ -1,0 +1,15 @@
+{
+  build: {
+    '@fab/input-static': {
+      dir: 'src'
+    },
+    '@fab/serve-html': {},
+    '@fab/rewire-assets': {
+      'inline-threshold': 30
+    }
+  },
+  runtime: [
+    '@fab/rewire-assets',
+    '@fab/serve-html'
+  ]
+}

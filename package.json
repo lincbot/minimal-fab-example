@@ -5,12 +5,21 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'Tests passing!'",
-    "build:fab": "fab-static src"
+    "build:fab": "fab build",
+    "test:serve": "fab serve fab.zip",
+    "test:curl": "sleep 1 && curl -v http://localhost:3000/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fab/static": "^0.1.4"
+    "@fab/cli": "next",
+    "@fab/input-static": "next",
+    "@fab/rewire-assets": "next",
+    "@fab/serve-html": "next",
+    "@fly/v8env": "^0.54.0"
+  },
+  "devDependencies": {
+    "rollup": "^1.27.9"
   }
 }
