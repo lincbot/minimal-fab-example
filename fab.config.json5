@@ -1,15 +1,19 @@
 {
-  build: {
-    '@fab/input-static': {
-      dir: 'src'
+  "build": {
+    "@fab/input-static": {
+      "dir": "src"
     },
-    '@fab/serve-html': {},
-    '@fab/rewire-assets': {
-      'inline-threshold': 30
+    "@fab/serve-html": {},
+    "@fab/rewire-assets": {
+      "inline-threshold": 30
     }
   },
-  runtime: [
-    '@fab/rewire-assets',
-    '@fab/serve-html'
-  ]
+  "runtime": [
+    "@fab/rewire-assets",
+    "@fab/serve-html"
+  ],
+  "deploy": {
+    "cf_workers_name": "minimal-fab",
+    "s3_asset_bucket": "fab-assets-417fa52a-minimal-fab"
+  }
 }
