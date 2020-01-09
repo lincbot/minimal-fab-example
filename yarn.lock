@@ -3,12 +3,12 @@
 
 
 "@fab/cli@next":
-  version "0.0.5-alpha.3"
-  resolved "https://registry.yarnpkg.com/@fab/cli/-/cli-0.0.5-alpha.3.tgz#7c2122524b4a24b74044d318d0368f814712572e"
-  integrity sha512-qDlHGbNMV+doo4esRQ9+O3Bpw3kXg0KHvox8F7Z1EnuisoXi+3Hat/0Jp6ZoDJG22Kdjsj07B4USIZFDBoyDiQ==
+  version "0.0.5-alpha.4"
+  resolved "https://registry.yarnpkg.com/@fab/cli/-/cli-0.0.5-alpha.4.tgz#ca13348be678fdb766b51969c6ce5dda1edef317"
+  integrity sha512-2jq2ya2Y5ccYTytWmoEy1hDNKDAZumITMpu/y2hnsKPPi/ceBpog/Bec3M2anwNimgEhPesljgfyuMt8XTuJ5A==
   dependencies:
-    "@fab/core" "0.0.5-alpha.3"
-    "@fab/server" "0.0.5-alpha.3"
+    "@fab/core" "0.0.5-alpha.4"
+    "@fab/server" "0.0.5-alpha.4"
     "@oclif/command" "^1"
     "@oclif/config" "^1"
     "@oclif/plugin-help" "^2"
@@ -35,52 +35,52 @@
     semver "^7.1.1"
     tslib "^1"
 
-"@fab/core@0.0.5-alpha.3":
-  version "0.0.5-alpha.3"
-  resolved "https://registry.yarnpkg.com/@fab/core/-/core-0.0.5-alpha.3.tgz#d828ade17729f5a2fa888698c2dd729b9ee24c9f"
-  integrity sha512-zKev+uu5UIKqaXDGM30VTcHcnQQbVpZ6TuW/tSFdPrt7eOBThmqrW/B5Mv414bbjAV3Wd/xw/ZmkOo3fqWLwPw==
+"@fab/core@0.0.5-alpha.4":
+  version "0.0.5-alpha.4"
+  resolved "https://registry.yarnpkg.com/@fab/core/-/core-0.0.5-alpha.4.tgz#22a9ba4663104f82db705e00da8bec3f9ed8e1db"
+  integrity sha512-BteTZ2kNoLaKNiW3LlALTJbz+1hWXx6I7y1ZD9zr36uSWY8ANa+wDxitGwKQE5mz5NaIT2/MCwCw3kLKHWIu3g==
   dependencies:
     "@types/node" "^12.12.14"
     mime-types "^2.1.25"
 
 "@fab/input-static@next":
-  version "0.0.5-alpha.3"
-  resolved "https://registry.yarnpkg.com/@fab/input-static/-/input-static-0.0.5-alpha.3.tgz#6f7f17598d15e23a584d3b3260e4afce90c7914f"
-  integrity sha512-SQgVm2r9L7eh4FSSLqwYDFPL8ApRhSpYijL7tXK6YvYJQMp53UZOYr/x3rEBC+ocrVFwe/vqNhembH+ofE/7OQ==
+  version "0.0.5-alpha.4"
+  resolved "https://registry.yarnpkg.com/@fab/input-static/-/input-static-0.0.5-alpha.4.tgz#263ca3f55b3221e1fbd7d5ba3821e921e2edf249"
+  integrity sha512-q/u8S9Wir9h+VV5VihgdASbXYH9Tj4tUegAYz9z6p2ibtPZwj6Ra2A8Zs9dCbGknnK2qTKB3HCqhDfmKaRx/PQ==
   dependencies:
-    "@fab/core" "0.0.5-alpha.3"
+    "@fab/core" "0.0.5-alpha.4"
     "@types/node" "^12.12.14"
     fs-extra "^8.1.0"
     globby "^10"
 
 "@fab/rewire-assets@next":
-  version "0.0.5-alpha.3"
-  resolved "https://registry.yarnpkg.com/@fab/rewire-assets/-/rewire-assets-0.0.5-alpha.3.tgz#3fdba0c37775898e0066a8cbd258725d9bcbca67"
-  integrity sha512-8kVmn3LjZbkOVS4CaeGDY70xEW0macnbQs77fB1UyOyHzAtwI0yQwZ3AykIWmeaV+bPif41uJlTvNOZiYMfj+A==
+  version "0.0.5-alpha.4"
+  resolved "https://registry.yarnpkg.com/@fab/rewire-assets/-/rewire-assets-0.0.5-alpha.4.tgz#6b70639ba6e29d734e7acc39bff42e2a42d9df68"
+  integrity sha512-D06XDQZpTZeIfwqr4w/2NJmbnxr8pki4e2pKI1kUW/b2dx8RSpQYPF/VA764IioTmXFSXXnEwOeVDXj9ZdhiQQ==
   dependencies:
-    "@fab/core" "0.0.5-alpha.3"
+    "@fab/core" "0.0.5-alpha.4"
     "@types/mime-types" "^2.1.0"
     "@types/node" "^12.12.14"
     hasha "^5.1.0"
 
 "@fab/serve-html@next":
-  version "0.0.5-alpha.3"
-  resolved "https://registry.yarnpkg.com/@fab/serve-html/-/serve-html-0.0.5-alpha.3.tgz#454bfe17b6133a35a30d991f7765451ee5e21769"
-  integrity sha512-O6R0B1N3saZKOEOMl+wkRSkn0a9hGQDzqmd5z+TiX6L3+zKtzLQWnFKKu+PMh2EpD7M3ei4cUcKBSudcoZbTEg==
+  version "0.0.5-alpha.4"
+  resolved "https://registry.yarnpkg.com/@fab/serve-html/-/serve-html-0.0.5-alpha.4.tgz#1697a4c652219ff107386004a5f330edd8d3b6fa"
+  integrity sha512-jF1wtXPkWi0OZiflk+JpJCvwGjkiKzrFi8xb5UYMyhm3Keof6kDXnyEgwab7367y+NVz+IbmyFBPTaQ6GpVuQg==
   dependencies:
-    "@fab/core" "0.0.5-alpha.3"
+    "@fab/core" "0.0.5-alpha.4"
     "@types/cheerio" "^0.22.15"
     "@types/mustache" "^0.8.32"
     "@types/node" "^12.12.14"
     cheerio "^1.0.0-rc.3"
     mustache "^3.2.0"
 
-"@fab/server@0.0.5-alpha.3":
-  version "0.0.5-alpha.3"
-  resolved "https://registry.yarnpkg.com/@fab/server/-/server-0.0.5-alpha.3.tgz#b2577f4e2997544900552fb9544307b007adeb79"
-  integrity sha512-TyeZ0EbaCbUMDx7Td8MsfGgaXzvHpbhS8LjJtEiSG0LCENeUZWrJGgAUh59T9t9auiViATfMYroU6YZCpxiDuw==
+"@fab/server@0.0.5-alpha.4":
+  version "0.0.5-alpha.4"
+  resolved "https://registry.yarnpkg.com/@fab/server/-/server-0.0.5-alpha.4.tgz#1f46002d43c46d493579161f6e60c8cf12dc9074"
+  integrity sha512-cstQe/bWhy+ISdPsiBEXt/q3cG03qMBLnnD2Sx9TrUisqvQNWSPyMVQXUY8SndnADaJXew5zWvEkPyqqJnp6RQ==
   dependencies:
-    "@fab/core" "0.0.5-alpha.3"
+    "@fab/core" "0.0.5-alpha.4"
     "@fly/v8env" "^0.54.0"
     "@types/concat-stream" "^1.6.0"
     "@types/express" "^4.17.2"
@@ -1185,9 +1185,9 @@ lodash@^4.15.0:
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 magic-string@^0.25.2:
-  version "0.25.5"
-  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.25.5.tgz#694fa8c6b9a51d83cc4a72c5b6883a7cfa890e40"
-  integrity sha512-vIO/BOm9odBHBAGwv0gZPLJeO9IpwliiIc0uPeAW93rrFMJ/R3M665IAEfOU/IW3kD4S9AtEn76lfTn1Yif+9A==
+  version "0.25.6"
+  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.25.6.tgz#5586387d1242f919c6d223579cc938bf1420795e"
+  integrity sha512-3a5LOMSGoCTH5rbqobC2HuDNRtE2glHZ8J7pK+QZYppyWA36yuNpsX994rIY2nCuyP7CZYy7lQq/X2jygiZ89g==
   dependencies:
     sourcemap-codec "^1.4.4"
 
