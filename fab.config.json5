@@ -1,17 +1,14 @@
 {
-  "build": {
+  "plugins": {
     "@fab/input-static": {
       "dir": "src"
     },
+    "./fab-server/local-hax.ts": {},
     "@fab/serve-html": {},
     "@fab/rewire-assets": {
       "inline-threshold": 30
     }
   },
-  "runtime": [
-    "@fab/rewire-assets",
-    "@fab/serve-html"
-  ],
   "deploy": {
     "cf_workers_name": "minimal-fab",
     "s3_asset_bucket": "fab-assets-417fa52a-minimal-fab"
