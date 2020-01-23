@@ -3,7 +3,9 @@
     "@fab/input-static": {
       "dir": "src"
     },
-    "./fab-server/local-hax.ts": {},
+    "./fab-server/local-hax.ts": {
+      livestreaming: 'lol'
+    },
     "@fab/serve-html": {},
     "@fab/rewire-assets": {
       "inline-threshold": 30
