@@ -5,10 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'Tests passing!'",
-    "build:fab": "fab build",
-    "test:fab": "run-p --race \"test:fab:*\"",
-    "test:fab:serve": "fab serve fab.zip",
-    "test:fab:test-local": "curl -v --retry 3 --retry-connrefused http://localhost:3000/"
+    "build": "cp -R src build"
   },
   "keywords": [],
   "author": "",
