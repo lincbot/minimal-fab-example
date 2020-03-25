@@ -3,3 +3,6 @@ fab.zip
 node_modules
 yarn-error.log
 build
+
+/.fab
+/fab.zip

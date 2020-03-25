@@ -5,19 +5,23 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'Tests passing!'",
-    "build": "cp -R src build"
+    "build": "cp -R src build",
+    "build:fab": "npm run build && npm run fab:build",
+    "fab:build": "fab build",
+    "fab:serve": "fab serve fab.zip"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fab/cli": "next",
-    "@fab/input-static": "next",
-    "@fab/rewire-assets": "next",
-    "@fab/serve-html": "next",
+    "@fab/cli": "^0.0.7-alpha.15",
+    "@fab/input-static": "^0.0.7-alpha.15",
+    "@fab/rewire-assets": "^0.0.7-alpha.15",
+    "@fab/serve-html": "^0.0.7-alpha.15",
     "@fly/v8env": "^0.54.0"
   },
   "devDependencies": {
+    "@fab/server": "^0.0.7-alpha.15",
     "rollup": "^1.27.9"
   }
 }
