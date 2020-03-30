@@ -85,6 +85,30 @@
     "@types/node" "^12.12.14"
     mime-types "^2.1.25"
 
+"@fab/deployer-aws-lambda@^0.0.7-alpha.22":
+  version "0.0.7-alpha.22"
+  resolved "https://registry.yarnpkg.com/@fab/deployer-aws-lambda/-/deployer-aws-lambda-0.0.7-alpha.22.tgz#b8513406c86efabf9cd734e22d6e51c01128836a"
+  integrity sha512-Bnqsg9Cy5a8aPVS4taIjasXcgv+ATNWtID8vGWiGiWmMo6FYkH5o9N0/EoTN7M68maum/U1UuQXWaJqScCDv5g==
+  dependencies:
+    "@atomic-reactor/decompress" "^4.2.3"
+    "@fab/core" "0.0.7-alpha.22"
+    "@types/nanoid" "^2.1.0"
+    "@types/node" "^12.12.14"
+    deterministic-zip "^1.1.0"
+    execa "^4.0.0"
+    fs-extra "^8.1.0"
+    nanoid "^2.1.11"
+    zip-lib "^0.5.0"
+
+"@fab/deployer-aws-s3@^0.0.7-alpha.22":
+  version "0.0.7-alpha.22"
+  resolved "https://registry.yarnpkg.com/@fab/deployer-aws-s3/-/deployer-aws-s3-0.0.7-alpha.22.tgz#25ccfaf06790ccfbbc9d74236723d9896622f2d2"
+  integrity sha512-UhsRw6n83cgDy+N2pYjVFgiDOGrcL5rIIl6YenLwCFpV5L7bQnA2o3q8AoiI9/i4yz6kYkvJO/Fgcb4vNsWAcg==
+  dependencies:
+    "@fab/core" "0.0.7-alpha.22"
+    "@types/node" "^12.12.14"
+    aws-sdk "^2.647.0"
+
 "@fab/input-static@^0.0.7-alpha.22":
   version "0.0.7-alpha.22"
   resolved "https://registry.yarnpkg.com/@fab/input-static/-/input-static-0.0.7-alpha.22.tgz#fa4bb22d16ed0df5d680220d30add98416788de0"
@@ -451,6 +475,13 @@
   resolved "https://registry.yarnpkg.com/@types/mustache/-/mustache-0.8.32.tgz#7db3b81f2bf450bd38805f596d20eca97c4ed595"
   integrity sha512-RTVWV485OOf4+nO2+feurk0chzHkSjkjALiejpHltyuMf/13fGymbbNNFrSKdSSUg1TIwzszXdWsVirxgqYiFA==
 
+"@types/nanoid@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@types/nanoid/-/nanoid-2.1.0.tgz#41edfda78986e9127d0dc14de982de766f994020"
+  integrity sha512-xdkn/oRTA0GSNPLIKZgHWqDTWZsVrieKomxJBOQUK9YDD+zfSgmwD5t4WJYra5S7XyhTw7tfvwznW+pFexaepQ==
+  dependencies:
+    "@types/node" "*"
+
 "@types/node@*":
   version "13.1.5"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.1.5.tgz#4d5efc52a1d3e45d13e5ec9f911cbc5b089ccaec"
@@ -654,6 +685,21 @@ aws-sdk@^2.409.0:
   version "2.600.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.600.0.tgz#bb22e75abd34fd5455981e0b46db1d022b703f45"
   integrity sha512-ySgOVN7plt4g3SmbvAz6fD8aefcmU/IjgogiEgal5BZB5ad5o99MOFwcTILRSLF9rDyoKAHNE3hx0Jcie6XsBQ==
+  dependencies:
+    buffer "4.9.1"
+    events "1.1.1"
+    ieee754 "1.1.13"
+    jmespath "0.15.0"
+    querystring "0.2.0"
+    sax "1.2.1"
+    url "0.10.3"
+    uuid "3.3.2"
+    xml2js "0.4.19"
+
+aws-sdk@^2.647.0:
+  version "2.648.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.648.0.tgz#6cbea887b98c3ee8316870e9eead659194e35094"
+  integrity sha512-b+PdZmCFvZBisqXEH68jO4xB30LrDHQMWrEX6MJoZaOlxPJfpOqRFUH3zsiAXF5Q2jTdjYLtS5bs3vcIwRzi3Q==
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
@@ -2296,6 +2342,11 @@ mustache@^3.2.0:
   resolved "https://registry.yarnpkg.com/mustache/-/mustache-3.2.1.tgz#89e78a9d207d78f2799b1e95764a25bf71a28322"
   integrity sha512-RERvMFdLpaFfSRIEe632yDm5nsd0SDKn8hGmcUwswnyiE5mtdZLDybtHAz6hjJhawokF0hXvGLtx9mrQfm6FkA==
 
+nanoid@^2.1.11:
+  version "2.1.11"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-2.1.11.tgz#ec24b8a758d591561531b4176a01e3ab4f0f0280"
+  integrity sha512-s/snB+WGm6uwi0WjsZdaVcuf3KJXlfGl2LcxgwkEwJF0D/BWzVWAZW/XY4bFaiR7s0Jk3FPvlnepg1H1b1UwlA==
+
 natural-orderby@^2.0.1:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/natural-orderby/-/natural-orderby-2.0.3.tgz#8623bc518ba162f8ff1cdb8941d74deb0fdcc016"
@@ -3296,3 +3347,18 @@ yauzl@^2.10.0, yauzl@^2.4.2:
   dependencies:
     buffer-crc32 "~0.2.3"
     fd-slicer "~1.1.0"
+
+yazl@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/yazl/-/yazl-2.5.1.tgz#a3d65d3dd659a5b0937850e8609f22fffa2b5c35"
+  integrity sha512-phENi2PLiHnHb6QBVot+dJnaAZ0xosj7p3fWl+znIjBDlnMI2PsZCJZ306BPTFOaHf5qdDEI8x5qFrSOBN5vrw==
+  dependencies:
+    buffer-crc32 "~0.2.3"
+
+zip-lib@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/zip-lib/-/zip-lib-0.5.0.tgz#738ebf5a7e0d0e828d4377834f202f1a65fd7762"
+  integrity sha512-G12R64X1NZIMC1HOLZbVPs4MngxqbgBCqkqZoEbafahO/L+BD93iNEzZ+aAwA/xV5p+k7l6jWWhRyUjTgAb7cw==
+  dependencies:
+    yauzl "^2.10.0"
+    yazl "^2.5.1"

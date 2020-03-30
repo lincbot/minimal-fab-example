@@ -17,6 +17,8 @@
   "license": "ISC",
   "dependencies": {
     "@fab/cli": "^0.0.7-alpha.22",
+    "@fab/deployer-aws-lambda": "^0.0.7-alpha.22",
+    "@fab/deployer-aws-s3": "^0.0.7-alpha.22",
     "@fab/input-static": "^0.0.7-alpha.22",
     "@fab/rewire-assets": "^0.0.7-alpha.22",
     "@fab/serve-html": "^0.0.7-alpha.22",
