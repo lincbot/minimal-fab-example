@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'Tests passing!'",
-    "build:fab": "echo \"no build needed\" && npm run fab:build",
+    "build:fab": "echo \"no build needed!\" && npm run fab:build",
     "test:fab": "run-p --race \"test:fab:*\"",
     "test:fab:serve": "fab serve fab.zip",
     "test:fab:test-local": "curl -v --retry 3 --retry-connrefused http://localhost:3000/",
@@ -16,13 +16,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fab/cli": "next",
-    "@fab/input-static": "next",
-    "@fab/rewire-assets": "next",
-    "@fab/serve-html": "next",
+    "@fab/cli": "^0.0.7-alpha.22",
+    "@fab/input-static": "^0.0.7-alpha.22",
+    "@fab/rewire-assets": "^0.0.7-alpha.22",
+    "@fab/serve-html": "^0.0.7-alpha.22",
     "@fly/v8env": "^0.54.0"
   },
   "devDependencies": {
+    "@fab/server": "^0.0.7-alpha.22",
     "rollup": "^1.27.9"
   }
 }
