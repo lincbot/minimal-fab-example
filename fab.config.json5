@@ -1,18 +1,35 @@
 {
-  "plugins": {
-    "@fab/input-static": {
-      "dir": "src"
+  plugins: {
+    '@fab/input-static': {
+      dir: 'src'
     },
-    "./fab-server/local-hax.ts": {
+    './fab-server/local-hax.ts': {
       livestreaming: 'lol'
     },
-    "@fab/serve-html": {},
-    "@fab/rewire-assets": {
-      "inline-threshold": 30
+    '@fab/serve-html': {},
+    '@fab/rewire-assets': {
+      'inline-threshold': 30
     }
   },
-  "deploy": {
-    "cf_workers_name": "minimal-fab",
-    "s3_asset_bucket": "fab-assets-417fa52a-minimal-fab"
+  deploy: {
+    'cf-workers': {
+      account_id: 'cd3d2f25fb7dfdd4e8be7f187b2cbad1',
+      zone_id: 'cfe0995afb10f7554974d1052551e521',
+      route: 'test.glenmaddern.com/*',
+      api_key: '@CF_WORKERS_API_KEY'
+    },
+    'aws-lambda-edge': {
+      access_key: 'AKIAWIORJFSCPRR4HZ5C',
+      cf_distribution_id: 'E2PYIF66BNVWLQ',
+      lambda_arn: 'arn:aws:lambda:us-east-1:430472506500:function:geelen-minimal-fab-renderer',
+      secret_key: '@AWS_LAMBDA_SECRET_KEY',
+      region: 'us-east-1'
+    },
+    'aws-s3': {
+      aws_key: 'AKIA6OAMI6OEDG7TTD5U',
+      aws_secret: '@AWS_S3_SECRET_KEY',
+      bucket_name: 'geelen-minimal-fab',
+      public_url: 'https://static-assets.linc.sh'
+    }
   }
 }
