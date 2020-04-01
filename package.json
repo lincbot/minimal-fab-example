@@ -10,7 +10,9 @@
     "test:fab:serve": "fab serve fab.zip",
     "test:fab:test-local": "curl -v --retry 3 --retry-connrefused http://localhost:3000/",
     "fab:build": "fab build",
-    "fab:serve": "fab serve fab.zip"
+    "fab:serve": "fab serve fab.zip",
+    "fab:clean": "rm -rf fab.zip .fab",
+    "deploy": "npm run fab:clean && npm run build:fab && fab deploy fab.zip --assets-already-deployed-at='https://static-assets.linc.sh/geelen-minimal-fab'"
   },
   "keywords": [],
   "author": "",
