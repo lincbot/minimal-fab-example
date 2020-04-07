@@ -12,7 +12,8 @@
     "fab:build": "fab build",
     "fab:serve": "fab serve fab.zip",
     "fab:clean": "rm -rf fab.zip .fab",
-    "deploy": "npm run fab:clean && npm run build:fab && fab deploy fab.zip --assets-already-deployed-at='https://static-assets.linc.sh/geelen-minimal-fab'"
+    "deploy": "npm run fab:clean && npm run build:fab && fab deploy fab.zip --assets-already-deployed-at='https://static-assets.linc.sh/geelen-minimal-fab'",
+    "cf-deploy": "rm -rf .fab && fab deploy fab.zip --assets-already-deployed-at='https://static-assets.linc.sh/geelen-minimal-fab' --server-host=cf-workers"
   },
   "keywords": [],
   "author": "",

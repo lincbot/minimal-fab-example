@@ -15,6 +15,14 @@
       lambda_arn: 'arn:aws:lambda:us-east-1:430472506500:function:geelen-minimal-fab-renderer',
       secret_key: '@AWS_LAMBDA_SECRET_KEY',
       region: 'us-east-1'
+    },
+    'cf-workers': {
+      account_id: 'cd3d2f25fb7dfdd4e8be7f187b2cbad1',
+      api_token: '@CF_WORKERS_API_KEY',
+      script_name: 'test-cf-releaser-auto',
+      workers_dev: true,
+      zone_id: 'lol',
+      route: 'yeah.nah/*'
     }
   }
 }
